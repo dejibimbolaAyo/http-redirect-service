@@ -1,4 +1,4 @@
-let port = process.env.PORT || 80;
+let port = process.env.PORT || 3000;
 let redirectUrl = process.env.REDIRECT_URL || "http://example.com";
 let redirectStatusCode = process.env.REDIRECT_STATUS_CODE || 301;
 let keepRequestPath = process.env.REDIRECT_KEEP_REQUEST_PATH || false;
